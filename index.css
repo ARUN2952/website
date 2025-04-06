@@ -1,0 +1,136 @@
+body{
+    background-image: url(../RABBIT.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+body {
+background-color: #fff8e1;
+color: #333;
+}
+
+header {
+padding: 20px 40px;
+color: rgb(9, 215, 251);
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: static;
+}
+
+header h1 {
+font-size: 48px;
+}
+
+nav a {
+color: rgb(59, 34, 146);
+margin-left: 20px;
+text-decoration: none;
+font-weight: bold;
+font-size: 33px;
+}
+
+.hero {
+/* background: url('https://source.unsplash.com/1600x600/?toys') no-repeat center center/cover; */
+height: 350px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+color: white;
+}
+
+.hero h2 {
+font-size: 48px;
+/* background-color: rgba(0,0,0,0.5); */
+padding: 10px 20px;
+border-radius: 12px;
+color: #f406bd;
+}
+
+.section {
+padding: 40px 20px;
+text-align: center;
+}
+
+.section h2 {
+font-size: 50px;
+margin-bottom: 20px;
+color: #07d330;
+}
+
+.products {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.card {
+background-color: #fff;
+width: 220px;
+border-radius: 12px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+overflow: hidden;
+transition: transform 0.3s;
+}
+
+.card:hover {
+transform: scale(1.05);
+}
+
+.card img {
+width : 50px; 
+height: 60px;
+object-fit: cover;
+border-radius: 700px;
+}
+
+.card h3 {
+padding: 15px;
+font-size: 18px;
+}
+.card img{
+width : 50px; 
+height: 60px;
+} 
+
+
+footer {
+background-color: #ff6f61;
+color: white;
+text-align: center;
+padding: 20px;
+margin-top: 380px;
+}
+
+@media (max-width: 600px) {
+.hero h2 {
+font-size: 32px;
+}
+
+.products {
+flex-direction: column;
+align-items: center;
+}
+}
+a:link {
+    color: #877c7c;
+     }
+     
+a:visited {
+   color: #141414;
+     }
+     a:hover{
+       color: rgb(224, 7, 7);
+   }
+a:active {
+   color: #37da34;
+     }
